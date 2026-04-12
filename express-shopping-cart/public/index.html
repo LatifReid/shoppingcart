@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Express Shopping Cart</title>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    
+    <div id="product-list">
+        <button onclick="addToCart('Dragon Ball Figure', 19.99)">Add Figure ($19.99)</button>
+        <button onclick="addToCart('Senzu Beans', 5.00)">Add Senzu Beans ($5.00)</button>
+    </div>
+
+    <hr>
+    <h3>Your Cart:</h3>
+    <ul id="cart-display"></ul>
+    <button onclick="clearCart()">Clear All Items</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
